@@ -11,7 +11,7 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
 
-alias vim='nvim'
+abbr vim 'nvim'
 
 alias ccf='gcc -Wextra -Wall -Werror -std=c99 -pedantic -fsanitize=address -o main'
 alias cppf='g++ -Wextra -Wall -Werror -std=c++17 -pedantic -o main'
