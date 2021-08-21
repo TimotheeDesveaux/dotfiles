@@ -1,0 +1,4 @@
+configuration {
+	theme: "/home/stolen/.config/rofi/tokyonight.rasi";
+}
+@import "~/.config/rofi/tokyonight.rasi"
