@@ -15,7 +15,7 @@ abbr vim 'nvim'
 
 abbr ccf 'gcc -Wextra -Wall -Werror -std=c99 -pedantic -fsanitize=address'
 abbr cppf 'g++ -Wextra -Wall -Werror -std=c++17 -pedantic'
-alias valgrind-full='valgrind --leak-check=full --show-leak-kinds=all --leak-resolution=high --track-origins=yes --vgdb=yes'
+abbr valgrind-full 'valgrind --leak-check=full --show-leak-kinds=all --leak-resolution=high --track-origins=yes --vgdb=yes'
 
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
@@ -29,3 +29,9 @@ alias gl="git log --all --decorate --oneline --graph --color=always"
 alias gs="git status -s"
 
 alias rm="rm -I"
+
+##########
+# Prompt #
+##########
+
+set SPACEFISH_CHAR_SYMBOL ❯
