@@ -1,5 +1,5 @@
 configuration {
-	font:			"Ubuntu Nerd Font 10";
+	font:			"Ubuntu Nerd Font 11";
 	show-icons:		true;
 	icon-theme:		"Papirus";
 	display-drun:		"";
@@ -26,7 +26,7 @@ window {
 	border:			1px 3px 5px 1px;
 	border-color:		@ac;
 	border-radius:		2px;
-	width:			600px;
+	width:			700px;
 	location:		center;
 	x-offset:		0;
 	y-offset:		0;

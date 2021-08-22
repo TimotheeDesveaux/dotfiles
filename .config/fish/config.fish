@@ -2,6 +2,8 @@ set PATH $PATH ~/.bin
 set PATH $PATH ~/.local/bin
 set PATH $PATH ~/.scripts
 
+set EDITOR nvim
+
 set fish_greeting
 
 ###########
@@ -33,5 +35,4 @@ alias rm="rm -I"
 ##########
 # Prompt #
 ##########
-
-set SPACEFISH_CHAR_SYMBOL ❯
+starship init fish | source
