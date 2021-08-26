@@ -26,12 +26,14 @@ super + F12
    rofi -show emoji -modi emoji
 
 
-##########
-# Logout #
-##########
+####################
+# Power management #
+####################
 super + x
     rofi -show power-menu -modi power-menu:~/.local/bin/rofi-power-menu
 
+super + shift + x
+    ~/.config/bspwm/lock.sh
 
 
 #################
@@ -166,13 +168,13 @@ super + {Left,Down,Up,Right}
 # Audio #
 #########
 XF86AudioRaiseVolume
-    pactl set-sink-volume 0 +5%
+    pactl set-sink-volume @DEFAULT_SINK@ +5%
 
 XF86AudioLowerVolume
-    pactl set-sink-volume 0 -5%
+    pactl set-sink-volume @DEFAULT_SINK@ -5%
 
 XF86AudioMute
-    pactl set-sink-mute 0 toggle
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 XF86AudioPlay
     playerctl play-pause
