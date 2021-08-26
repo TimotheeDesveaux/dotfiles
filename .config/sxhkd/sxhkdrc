@@ -30,7 +30,7 @@ super + F12
 # Logout #
 ##########
 super + x
-    rofi -show power-menu -modi power-menu:rofi-power-menu
+    rofi -show power-menu -modi power-menu:~/.local/bin/rofi-power-menu
 
 
 

@@ -35,7 +35,7 @@ fi
 # Borders #
 ###########
 bspc config border_width 1
-bspc config focused_border_color '#b55fd4'
+bspc config focused_border_color '#9d7cd8'
 
 
 ########
