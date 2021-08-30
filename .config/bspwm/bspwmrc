@@ -18,16 +18,16 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 killall -q polybar
 bspc config top_padding 0
 bspc config bottom_padding 0
-if  xrandr | grep -q "HDMI-1-0 d"; then
-    xrandr --output "HDMI-1-0" --off
-    bspc monitor -d 1 2 3 4 5 6 7 8 9 10
-    polybar --reload -c ~/.config/polybar/config.ini mainbar &
-else
+if  xrandr | grep -q "HDMI-1-0 c"; then
     xrandr --output "HDMI-1-0" --above "eDP-1" --auto
     bspc monitor "eDP-1" -d 1 2 3
     bspc monitor "HDMI-1-0" -d 4 5 6 7 8 9 10
-    polybar --reload -c ~/.config/polybar/config top_bar &
-    polybar --reload -c ~/.config/polybar/config bottom_bar &
+    polybar --reload -c ~/.config/polybar/config.ini top_bar &
+    polybar --reload -c ~/.config/polybar/config.ini bottom_bar &
+else
+    xrandr --output "HDMI-1-0" --off
+    bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+    polybar --reload -c ~/.config/polybar/config.ini mainbar &
 fi
 
 
