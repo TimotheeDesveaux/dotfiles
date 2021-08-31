@@ -1,4 +1,10 @@
 configuration {
-	theme: "/home/stolen/.config/rofi/tokyonight.rasi";
+	font:			"Ubuntu Nerd Font 11";
+	show-icons:		false;
+	icon-theme:		"Papirus";
+	display-drun:		"";
+	drun-display-format:	"{name}";
+	disable-history:	false;
+	sidebar-mode:		false;
+	theme:			"/home/stolen/.config/rofi/tokyonight.rasi";
 }
-@import "~/.config/rofi/tokyonight.rasi"
