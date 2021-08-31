@@ -60,7 +60,7 @@ bspc config pointer_follows_monitor true
 ##############
 # Compositor #
 ##############
-picom --config ~/.config/bspwm/picom.conf &
+picom &
 
 
 #########
