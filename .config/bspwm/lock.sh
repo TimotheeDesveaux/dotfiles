@@ -25,7 +25,7 @@ i3lock \
     --layout-color=$blue \
     --date-color=$blue \
     --time-color=$blue \
-    --screen 1 \
+    --screen 2 \
     --blur 1 \
     --clock \
     --indicator \
