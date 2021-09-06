@@ -22,7 +22,6 @@ abbr valgrind-full 'valgrind --leak-check=full --show-leak-kinds=all --leak-reso
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias grep='grep --color=auto'
-
 alias pacman='pacman --color auto'
 
 alias zathura="zathura --fork"
@@ -31,6 +30,9 @@ alias gl="git log --all --decorate --oneline --graph --color=always"
 alias gs="git status -s"
 
 alias rm="rm -I"
+
+alias btc="bluetoothctl power on && bluetoothctl connect 38:18:4C:BF:3D:90"
+alias btd="bluetoothctl disconnect 38:18:4C:BF:3D:90 && bluetoothctl power off"
 
 ##########
 # Prompt #
