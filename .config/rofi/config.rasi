@@ -1,5 +1,5 @@
 configuration {
-	font:			"Ubuntu Nerd Font 11";
+	font:			"Ubuntu Nerd Font 12";
 	show-icons:		false;
 	icon-theme:		"Papirus";
 	display-drun:		"";
