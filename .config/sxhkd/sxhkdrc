@@ -20,7 +20,7 @@ super + Return
 # Program Launcher #
 ####################
 super + d
-    dmenu_run -i -nb '#24283b' -nf '#c0caf5' -sb '#7aa2f7' -m 1 -h 35 -fn "Ubuntu Nerd Font:Regular:pixel size=17"
+    dmenu_run -i -nb '#24283b' -nf '#c0caf5' -sb '#9d7cd8' -m 1 -h 35 -fn "Ubuntu Nerd Font:Regular:pixel size=17"
 
 super + F12
    rofi -show emoji -modi emoji
