@@ -69,7 +69,7 @@ picom &
 bspc rule -a Spotify desktop='10'
 bspc rule -a discord desktop='9'
 bspc rule -a Thunderbird desktop='8'
-bspc rule -a zoom desktop='7'
+bspc rule -a Slack desktop='7'
 
 bspc rule -a Galculator state=floating
 bspc rule -a Gpick state=floating
