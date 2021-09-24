@@ -1,0 +1,17 @@
+[directory]
+read_only = " "
+
+[docker_context]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[python]
+symbol = " "
+
+[java]
+symbol = " "
+
+[perl]
+symbol = " "
