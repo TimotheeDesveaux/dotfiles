@@ -26,13 +26,19 @@ alias pacman='pacman --color auto'
 
 alias zathura="zathura --fork"
 
-alias gl="git log --all --decorate --oneline --graph --color=always"
-alias gs="git status -s"
+alias gl='git log --all --decorate --oneline --graph --color=always'
+alias gs='git status -s'
+abbr gd 'git diff'
+abbr ga 'git add'
+abbr gc 'git commit'
+abbr gp 'git push'
 
-alias rm="rm -I"
+alias rm='rm -I'
+alias mv='mv -i'
+alias cp='cp -i'
 
-alias btc="bluetoothctl power on && bluetoothctl connect 38:18:4C:BF:3D:90"
-alias btd="bluetoothctl disconnect 38:18:4C:BF:3D:90 && bluetoothctl power off"
+alias btc='bluetoothctl power on && bluetoothctl connect 38:18:4C:BF:3D:90'
+alias btd='bluetoothctl disconnect 38:18:4C:BF:3D:90 && bluetoothctl power off'
 
 ##########
 # Prompt #
