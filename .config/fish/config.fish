@@ -1,8 +1,8 @@
-set PATH $PATH ~/.bin
-set PATH $PATH ~/.local/bin
-set PATH $PATH ~/.scripts
+set -x PATH $PATH ~/.bin
+set -x PATH $PATH ~/.local/bin
+set -x PATH $PATH ~/.scripts
 
-set EDITOR nvim
+set -x EDITOR nvim
 
 set fish_greeting
 
