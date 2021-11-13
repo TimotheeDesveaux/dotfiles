@@ -20,7 +20,7 @@ super + Return
 # Program Launcher #
 ####################
 super + d
-    dmenu_run -i -nb '#24283b' -nf '#c0caf5' -sb '#9d7cd8' -m 1 -h 35 -fn "Ubuntu Nerd Font:Regular:pixel size=17"
+    dmenu_run -i -nb '#24283b' -nf '#c0caf5' -sb '#9d7cd8' -h 35 -fn "Iosevka:style=Regular:size=10"
 
 super + F12
    rofi -show emoji -modi emoji
@@ -115,7 +115,7 @@ super + {o,i}
 ######################################
 # Focus or Send to the Given Desktop #
 ######################################
-super + {_,shift + }{ampersand,eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
+super + {_,shift + }{1,2,3,4,5,6,7,8,9,0}
     bspc {desktop -f,node -d} '{1,2,3,4,5,6,7,8,9,10}'
 
 
