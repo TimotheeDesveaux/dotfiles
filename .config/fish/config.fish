@@ -1,10 +1,3 @@
-set -x PATH $PATH ~/.bin
-set -x PATH $PATH ~/.local/bin
-set -x PATH $PATH ~/.scripts
-set -x PATH $PATH ~/.cargo/bin
-
-set -x EDITOR nvim
-
 set fish_greeting
 
 ###########
