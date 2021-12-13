@@ -81,7 +81,7 @@ bspc rule -a jetbrains-toolbox state=tiled
 #############
 numlockx on
 xset r rate 220 35
-feh --bg-fill /misc/yes.jpg &
+feh --bg-fill ~/Pictures/tiger.jpg
 pgrep -x nm-applet > /dev/null || nm-applet &
 pgrep -x spotify > /dev/null || spotify &
 pgrep -x discord > /dev/null || discord &

@@ -9,8 +9,8 @@ abbr ll 'ls -la'
 
 abbr vim 'nvim'
 
-abbr ccf 'gcc -Wextra -Wall -Werror -std=c99 -pedantic -fsanitize=address'
-abbr cppf 'g++ -Wextra -Wall -Werror -std=c++17 -pedantic'
+abbr ccf 'gcc -Wextra -Wall -Werror -std=c99 -pedantic -fsanitize=address -o main'
+abbr cppf 'g++ -Wextra -Wall -Werror -std=c++17 -pedantic -o main'
 abbr valgrind-full 'valgrind --leak-check=full --show-leak-kinds=all --leak-resolution=high --track-origins=yes --vgdb=yes'
 
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
