@@ -20,7 +20,7 @@ super + Return
 # Program Launcher #
 ####################
 super + d
-    dmenu_run -i -nb '#24283b' -nf '#c0caf5' -sb '#9d7cd8' -h 35 -fn "Iosevka:style=SemiBold:size=12"
+    dmenu_run -i -nb '#24283b' -nf '#c0caf5' -sb '#9d7cd8' -h 30 -fn "Iosevka:style=SemiBold:size=10"
 
 super + F12
    rofi -show emoji -modi emoji

@@ -1,5 +1,8 @@
 command_timeout = 1000
 
+[battery]
+disabled = true
+
 [directory]
 truncation_length = 0
 read_only = ' '

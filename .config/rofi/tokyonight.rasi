@@ -15,7 +15,7 @@ window {
 	border:			1px 2px 2px 1px;
 	border-color:		@ac;
 	border-radius:		2px;
-	width:			700px;
+	width:			600px;
 	location:		center;
 	x-offset:		0;
 	y-offset:		0;
